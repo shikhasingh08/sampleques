@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
-    double a, b, product;
+    double c, d, product;
     printf("Enter two numbers: ");
-    scanf("%lf %lf", &a, &b);  
+    scanf("%lf %lf", &c, &d);  
  
     // Calculating product
-    product = a * b;
+    product = c * d;
 
     // %.2lf displays number up to 2 decimal point
     printf("Product = %.2lf", product);
